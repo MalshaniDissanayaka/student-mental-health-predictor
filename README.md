@@ -1,21 +1,29 @@
-cat > README.md <<'EOF'
-# To-Do List App (Dockerized)
+# Student Mental Health Early Warning System
 
-## Requirements
-- Docker
-- Docker Compose
-- Git
+A simple machine learning project that predicts whether a student is at **High Stress** or **Low Stress** using synthetic data.
 
-## Description
-Simple To-Do app built with Flask + MySQL.  
-- Add tasks
-- Mark tasks as done
-- Persistent storage with Docker volumes
+## 📌 Features Used
+- Sleep Hours
+- Study Hours
+- Social Life Score
+- Physical Activity
+- Assignments Due
 
-## How to Run
-```bash
-./prepare-app.sh
-./start-app.sh
-# App available at http://localhost:5000
-./stop-app.sh
-./remove-app.sh
+## 🎯 Project Goals
+✔ Build a simple & interpretable ML model  
+✔ Demonstrate beginner-friendly data science workflow  
+✔ Useful educational example for GitHub & LinkedIn  
+
+## 🧠 Machine Learning Model
+- Random Forest Classifier  
+- Standard Scaling  
+- Train/Test Split  
+
+## 📊 Outputs
+- Accuracy Score  
+- Classification Report  
+- Stress Predictions  
+
+## 🚀 How to Run
+
+### 1. Generate Dataset
