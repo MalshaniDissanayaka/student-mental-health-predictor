@@ -24,6 +24,3 @@ A simple machine learning project that predicts whether a student is at **High S
 - Classification Report  
 - Stress Predictions  
 
-## 🚀 How to Run
-
-### 1. Generate Dataset
